@@ -1,0 +1,15 @@
+C:\Users\inco\Source\Repos\Demo\DEemo.SqlServer\bin\Debug\netcoreapp3.1\Demo.SqlServer.deps.json
+C:\Users\inco\Source\Repos\Demo\DEemo.SqlServer\bin\Debug\netcoreapp3.1\Demo.SqlServer.dll
+C:\Users\inco\Source\Repos\Demo\DEemo.SqlServer\obj\Debug\netcoreapp3.1\Demo.SqlServer.csprojAssemblyReference.cache
+C:\Users\inco\Source\Repos\Demo\DEemo.SqlServer\obj\Debug\netcoreapp3.1\Demo.SqlServer.AssemblyInfoInputs.cache
+C:\Users\inco\Source\Repos\Demo\DEemo.SqlServer\obj\Debug\netcoreapp3.1\Demo.SqlServer.AssemblyInfo.cs
+C:\Users\inco\Source\Repos\Demo\DEemo.SqlServer\bin\Debug\netcoreapp3.1\Demo.DbModel.dll
+C:\Users\inco\Source\Repos\Demo\DEemo.SqlServer\bin\Debug\netcoreapp3.1\Demo.SqlServer.runtimeconfig.json
+C:\Users\inco\Source\Repos\Demo\DEemo.SqlServer\bin\Debug\netcoreapp3.1\Demo.SqlServer.runtimeconfig.dev.json
+C:\Users\inco\Source\Repos\Demo\DEemo.SqlServer\bin\Debug\netcoreapp3.1\Demo.SqlServer.pdb
+C:\Users\inco\Source\Repos\Demo\DEemo.SqlServer\bin\Debug\netcoreapp3.1\Demo.DbModel.pdb
+C:\Users\inco\Source\Repos\Demo\DEemo.SqlServer\obj\Debug\netcoreapp3.1\Demo.SqlServer.csproj.CopyComplete
+C:\Users\inco\Source\Repos\Demo\DEemo.SqlServer\obj\Debug\netcoreapp3.1\Demo.SqlServer.dll
+C:\Users\inco\Source\Repos\Demo\DEemo.SqlServer\obj\Debug\netcoreapp3.1\Demo.SqlServer.pdb
+C:\Users\inco\Source\Repos\Demo\DEemo.SqlServer\obj\Debug\netcoreapp3.1\Demo.SqlServer.genruntimeconfig.cache
+C:\Users\inco\Source\Repos\Demo\DEemo.SqlServer\obj\Debug\netcoreapp3.1\Demo.SqlServer.csproj.CoreCompileInputs.cache

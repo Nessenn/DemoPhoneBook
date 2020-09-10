@@ -1,0 +1,33 @@
+﻿<form role="form" novalidate name="phoneBookForm">
+    <div class="modal-header">
+        <h3>{{pc.data.headerText}}</h3>
+    </div>
+    <div class="modal-body">
+
+        <div class="form-group" ng-class="{'has-error' : phoneBookForm.phoneNumber.$invalid && pc.submitted}">
+            <label for="phoneNumber">Phone Number</label>
+            <input type="text" class="form-control" name="phoneNumber" ng-model="pc.data.phoneNumber" number-only required autofocus maxlength="15">
+            <p ng-show="phoneBookForm.phoneNumber.$invalid && pc.submitted" class="help-block has-error">required</p>
+        </div>
+        <div class="form-group" ng-class="{'has-error' : phoneBookForm.name.$invalid && pc.submitted}">
+            <label for="Name">Name</label>
+            <input type="text" class="form-control" name="name"  data-ng-model="pc.data.name" required maxlength="50">
+            <p ng-show="phoneBookForm.name.$invalid && pc.submitted" class="help-block has-error">required</p>
+        </div>
+        <div class="form-group" ng-class="{'has-error' : phoneBookForm.address.$invalid && pc.submitted}">
+            <label for="address">Address</label>
+            <textarea rows="3" class="form-control" name="address" data-ng-model="pc.data.address" required maxlength="200"></textarea>
+            <p ng-show="phoneBookForm.address.$invalid && pc.submitted" class="help-block has-error">required</p>
+        </div>
+     </div>
+    <div class="modal-footer">
+        <button type="button" class="btn btn-danger" 
+                data-ng-click="pc.cancel()">
+            Cancel
+        </button>
+        <button class="btn btn-primary"
+                data-ng-click="pc.ok(phoneBookForm)">
+            Ok
+        </button>
+    </div>
+</form>

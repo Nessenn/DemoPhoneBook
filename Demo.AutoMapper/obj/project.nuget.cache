@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "UKhGQEYgrhQAxnK1WQ5stUh2DoYfklGZc7RrvhDFrXNKSGQFRMgT0MsTfvDyZXvq6td3hBUjVZtZ3+0YtFzsDw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\inco\\Source\\Repos\\Demo\\Demo.AutoMapper\\Demo.AutoMapper.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\inco\\.nuget\\packages\\automapper\\10.0.0\\automapper.10.0.0.nupkg.sha512",
+    "C:\\Users\\inco\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\inco\\.nuget\\packages\\system.reflection.emit\\4.7.0\\system.reflection.emit.4.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}

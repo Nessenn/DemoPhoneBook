@@ -1,0 +1,497 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\inco\\Source\\Repos\\Demo\\Demo\\Demo.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\inco\\Source\\Repos\\Demo\\DEemo.SqlServer\\Demo.SqlServer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\inco\\Source\\Repos\\Demo\\DEemo.SqlServer\\Demo.SqlServer.csproj",
+        "projectName": "Demo.SqlServer",
+        "projectPath": "C:\\Users\\inco\\Source\\Repos\\Demo\\DEemo.SqlServer\\Demo.SqlServer.csproj",
+        "packagesPath": "C:\\Users\\inco\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\inco\\Source\\Repos\\Demo\\DEemo.SqlServer\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\inco\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\inco\\Source\\Repos\\Demo\\Demo.DbModel\\Demo.DbModel.csproj": {
+                "projectPath": "C:\\Users\\inco\\Source\\Repos\\Demo\\Demo.DbModel\\Demo.DbModel.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[3.1.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\inco\\Source\\Repos\\Demo\\Demo.AutoMapper\\Demo.AutoMapper.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\inco\\Source\\Repos\\Demo\\Demo.AutoMapper\\Demo.AutoMapper.csproj",
+        "projectName": "Demo.AutoMapper",
+        "projectPath": "C:\\Users\\inco\\Source\\Repos\\Demo\\Demo.AutoMapper\\Demo.AutoMapper.csproj",
+        "packagesPath": "C:\\Users\\inco\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\inco\\Source\\Repos\\Demo\\Demo.AutoMapper\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\inco\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\inco\\Source\\Repos\\Demo\\Demo.DbModel\\Demo.DbModel.csproj": {
+                "projectPath": "C:\\Users\\inco\\Source\\Repos\\Demo\\Demo.DbModel\\Demo.DbModel.csproj"
+              },
+              "C:\\Users\\inco\\Source\\Repos\\Demo\\Demo.DTO\\Demo.Dto.csproj": {
+                "projectPath": "C:\\Users\\inco\\Source\\Repos\\Demo\\Demo.DTO\\Demo.Dto.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\inco\\Source\\Repos\\Demo\\Demo.Common\\Demo.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\inco\\Source\\Repos\\Demo\\Demo.Common\\Demo.Common.csproj",
+        "projectName": "Demo.Common",
+        "projectPath": "C:\\Users\\inco\\Source\\Repos\\Demo\\Demo.Common\\Demo.Common.csproj",
+        "packagesPath": "C:\\Users\\inco\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\inco\\Source\\Repos\\Demo\\Demo.Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\inco\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.8, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\inco\\Source\\Repos\\Demo\\Demo.DbModel\\Demo.DbModel.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\inco\\Source\\Repos\\Demo\\Demo.DbModel\\Demo.DbModel.csproj",
+        "projectName": "Demo.DbModel",
+        "projectPath": "C:\\Users\\inco\\Source\\Repos\\Demo\\Demo.DbModel\\Demo.DbModel.csproj",
+        "packagesPath": "C:\\Users\\inco\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\inco\\Source\\Repos\\Demo\\Demo.DbModel\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\inco\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\inco\\Source\\Repos\\Demo\\Demo.DTO\\Demo.Dto.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\inco\\Source\\Repos\\Demo\\Demo.DTO\\Demo.Dto.csproj",
+        "projectName": "Demo.Dto",
+        "projectPath": "C:\\Users\\inco\\Source\\Repos\\Demo\\Demo.DTO\\Demo.Dto.csproj",
+        "packagesPath": "C:\\Users\\inco\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\inco\\Source\\Repos\\Demo\\Demo.DTO\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\inco\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\inco\\Source\\Repos\\Demo\\Demo.Infrastructure\\Demo.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\inco\\Source\\Repos\\Demo\\Demo.Infrastructure\\Demo.Infrastructure.csproj",
+        "projectName": "Demo.Infrastructure",
+        "projectPath": "C:\\Users\\inco\\Source\\Repos\\Demo\\Demo.Infrastructure\\Demo.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\inco\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\inco\\Source\\Repos\\Demo\\Demo.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\inco\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\inco\\Source\\Repos\\Demo\\DEemo.SqlServer\\Demo.SqlServer.csproj": {
+                "projectPath": "C:\\Users\\inco\\Source\\Repos\\Demo\\DEemo.SqlServer\\Demo.SqlServer.csproj"
+              },
+              "C:\\Users\\inco\\Source\\Repos\\Demo\\Demo.Common\\Demo.Common.csproj": {
+                "projectPath": "C:\\Users\\inco\\Source\\Repos\\Demo\\Demo.Common\\Demo.Common.csproj"
+              },
+              "C:\\Users\\inco\\Source\\Repos\\Demo\\Demo.DTO\\Demo.Dto.csproj": {
+                "projectPath": "C:\\Users\\inco\\Source\\Repos\\Demo\\Demo.DTO\\Demo.Dto.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\inco\\Source\\Repos\\Demo\\Demo\\Demo.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\inco\\Source\\Repos\\Demo\\Demo\\Demo.csproj",
+        "projectName": "Demo",
+        "projectPath": "C:\\Users\\inco\\Source\\Repos\\Demo\\Demo\\Demo.csproj",
+        "packagesPath": "C:\\Users\\inco\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\inco\\Source\\Repos\\Demo\\Demo\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\inco\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\inco\\Source\\Repos\\Demo\\Demo.AutoMapper\\Demo.AutoMapper.csproj": {
+                "projectPath": "C:\\Users\\inco\\Source\\Repos\\Demo\\Demo.AutoMapper\\Demo.AutoMapper.csproj"
+              },
+              "C:\\Users\\inco\\Source\\Repos\\Demo\\Demo.DTO\\Demo.Dto.csproj": {
+                "projectPath": "C:\\Users\\inco\\Source\\Repos\\Demo\\Demo.DTO\\Demo.Dto.csproj"
+              },
+              "C:\\Users\\inco\\Source\\Repos\\Demo\\Demo.Infrastructure\\Demo.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\inco\\Source\\Repos\\Demo\\Demo.Infrastructure\\Demo.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.0.0, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[3.1.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[3.1.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.8, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

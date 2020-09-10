@@ -1,0 +1,8 @@
+C:\Users\inco\Source\Repos\Demo\Demo.DbModel\bin\Debug\netcoreapp3.1\Demo.DbModel.deps.json
+C:\Users\inco\Source\Repos\Demo\Demo.DbModel\bin\Debug\netcoreapp3.1\Demo.DbModel.dll
+C:\Users\inco\Source\Repos\Demo\Demo.DbModel\bin\Debug\netcoreapp3.1\Demo.DbModel.pdb
+C:\Users\inco\Source\Repos\Demo\Demo.DbModel\obj\Debug\netcoreapp3.1\Demo.DbModel.csproj.CoreCompileInputs.cache
+C:\Users\inco\Source\Repos\Demo\Demo.DbModel\obj\Debug\netcoreapp3.1\Demo.DbModel.AssemblyInfoInputs.cache
+C:\Users\inco\Source\Repos\Demo\Demo.DbModel\obj\Debug\netcoreapp3.1\Demo.DbModel.AssemblyInfo.cs
+C:\Users\inco\Source\Repos\Demo\Demo.DbModel\obj\Debug\netcoreapp3.1\Demo.DbModel.dll
+C:\Users\inco\Source\Repos\Demo\Demo.DbModel\obj\Debug\netcoreapp3.1\Demo.DbModel.pdb

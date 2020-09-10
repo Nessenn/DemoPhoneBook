@@ -1,0 +1,4 @@
+/DEemo.SqlServer/bin/Debug/netcoreapp3.1/*.dll
+/Demo.AutoMapper/bin/Debug/netcoreapp3.1/*.dll
+*.dll
+*.pdb

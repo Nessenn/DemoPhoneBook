@@ -1,0 +1,16 @@
+﻿<div class="modal-header">
+    <h3>{{pc.data.headerText}}</h3>
+</div>
+<div class="modal-body">
+    <p>{{pc.data.bodyText}}</p>
+</div>
+<div class="modal-footer">
+    <button type="button" class="btn"
+            data-ng-click="pc.cancel()">
+        {{pc.data.closeButtonText}}
+    </button>
+    <button class="btn btn-danger"
+            data-ng-click="pc.ok();">
+        {{pc.data.actionButtonText}}
+    </button>
+</div>

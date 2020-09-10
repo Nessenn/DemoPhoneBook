@@ -1,0 +1,55 @@
+﻿<!DOCTYPE html >
+<html lang="en"  ng-app="demoApp">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Demo</title>
+    @*<link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />*@
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/angular-ui/bower-ui-grid/ui-grid.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+            <div class="container">
+                <a class="navbar-brand" asp-area="" asp-page="/Index">Demo</a>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <main role="main" class="pb-3">
+            <div data-ng-view=""></div>
+        </main>
+    </div>
+
+    <footer class="border-top footer text-muted">
+        <div class="container">
+            &copy; 2020 - Demo - <a asp-area="" asp-page="/Privacy">Privacy</a>
+        </div>
+    </footer>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/lib/angularJs-1.7.8/angular.min.js"></script>
+    <script src="~/lib/angularJs-1.7.8/angular-resource.js"></script>
+    <script src="~/lib/angularJs-1.7.8/angular-route.js"></script>
+    <script src="~/lib/angularJs-1.7.8/angular-loader.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/angular-ui/bower-ui-grid/ui-grid.min.js"></script>
+    <script src="~/lib/angular-ui-2.5.0/ui-bootstrap.js"></script>
+    <script src="~/lib/angular-ui-2.5.0/ui-bootstrap-tpls.js"></script>
+    <script src="~/lib/angularJs-1.7.8/angular-sanitize.min.js"></script>
+    <script src="~/lib/angularJs-1.7.8/angular-animate.min.js"></script>
+
+    <script src="~/app/app.js" asp-append-version="true"></script>
+
+    <script src="~/app/directives/numberOnly.js"></script>
+
+    <script src="~/app/services/common/modals/confirmModalService.js"></script>
+    <script src="~/app/services/phoneBookService.js" asp-append-version="true"></script>
+
+    <script src="~/app/pages/phoneBook/phoneBookController.js" asp-append-version="true"></script>
+    <script src="~/app/pages/phoneBook/phoneBookModalController.js" asp-append-version="true"></script>>
+    <script src="~/app/pages/common/modals/confirmModalController.js" asp-append-version="true"></script>
+</body>
+</html>
